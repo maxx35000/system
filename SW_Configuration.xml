@@ -1,0 +1,12 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SW-Configuration>
+	<MobileData>
+	<PublicName>SM-G7105</PublicName>
+	</MobileData>
+	<CustomerDataSet>
+	<CSCName>G7105AUT</CSCName>
+	<CSCVersion>BNI2</CSCVersion>
+	<NbCustomer>1</NbCustomer>
+	<CustomerData src="/Customer/AUT/customer.xml" />
+	</CustomerDataSet>
+</SW-Configuration>

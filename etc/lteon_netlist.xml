@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/*
+** Copyright 2006, Google Inc.
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+
+<!--
+WhiteList attributes:
+	numeric: MCC+MNC from IMSI - this attribute is used as the key
+	ltestate: PS only or CSFB
+	operator: operator name
+	country: country
+	defaultMode: default network mode setting
+
+
+examples:
+	<whiteLists numeric="45001" ltestate="PS/CSFB" operator="TESTBED" country="KOREA"/
+-->
+
+<!-- WHITELIST_20140903 -->
+
+<whiteLists>
+
+<!-- FOR TEST -->
+		<whiteLists numeric="00101" ltestate="PS/CSFB" operator="TEST" country="TEST" defaultMode="GWL"/>
+		<whiteLists numeric="99999" ltestate="PS/CSFB" operator="TEST" country="TEST" defaultMode="GWL"/>
+		<whiteLists numeric="45001" ltestate="PS/CSFB" operator="TESTBED" country="TESTBED" defaultMode="GWL"/>
+		<whiteLists numeric="26277" ltestate="PS/CSFB" operator="E-Plus Testbed" country="Germany" defaultMode="GWL"/>
+
+<!-- SEUK -->
+		<whiteLists numeric="23408" ltestate="PS/CSFB" operator="BT OnePhone" country="UNITED KINGDOM" defaultMode="GWL"/>
+		<whiteLists numeric="23410" ltestate="PS/CSFB" operator="O2" country="UNITED KINGDOM" defaultMode="GWL"/>
+		<whiteLists numeric="23420" ltestate="PS/CSFB" operator="H3G" country="UNITED KINGDOM" defaultMode="GWL"/>
+		<whiteLists numeric="23426" ltestate="PS/CSFB" operator="Lycamobile" country="UNITED KINGDOM" defaultMode="GWL"/>
+		<whiteLists numeric="23430" ltestate="PS/CSFB" operator="EE" country="UNITED KINGDOM" defaultMode="GWL"/>
+		<whiteLists numeric="23431" ltestate="PS/CSFB" operator="EE" country="UNITED KINGDOM" defaultMode="GWL"/>
+		<whiteLists numeric="23432" ltestate="PS/CSFB" operator="EE" country="UNITED KINGDOM" defaultMode="GWL"/>
+		<whiteLists numeric="23433" ltestate="PS/CSFB" operator="EE" country="UNITED KINGDOM" defaultMode="GWL"/>
+		<whiteLists numeric="23434" ltestate="PS/CSFB" operator="EE" country="UNITED KINGDOM" defaultMode="GWL"/>
+		<whiteLists numeric="23458" ltestate="PS/CSFB" operator="Manx Telecom" country="UNITED KINGDOM" defaultMode="GWL"/>
+		<whiteLists numeric="23486" ltestate="PS/CSFB" operator="EE" country="UNITED KINGDOM" defaultMode="GWL"/>
+		<whiteLists numeric="23415" ltestate="PS/CSFB" operator="VDF" country="UNITED KINGDOM" defaultMode="GWL"/>
+		<whiteLists numeric="27201" ltestate="PS/CSFB" operator="VDF" country="Ireland" defaultMode="GWL"/>
+		<whiteLists numeric="27203" ltestate="PS/CSFB" operator="METEOR" country="Ireland" defaultMode="GWL"/>
+		<whiteLists numeric="27205" ltestate="PS/CSFB" operator="3IE" country="Ireland" defaultMode="GWL"/>
+
+<!-- SEF  -->
+		<whiteLists numeric="20820" ltestate="PS/CSFB" operator="Bouygues" country="France" defaultMode="GWL"/>
+		<whiteLists numeric="20821" ltestate="PS/CSFB" operator="Bouygues" country="France" defaultMode="GWL"/>
+		<whiteLists numeric="20823" ltestate="PS/CSFB" operator="Virgin" country="France" defaultMode="GWL"/>
+		<whiteLists numeric="20888" ltestate="PS/CSFB" operator="Bouygues" country="France" defaultMode="GWL"/>
+		<whiteLists numeric="20801" ltestate="PS/CSFB" operator="Orange" country="France" defaultMode="GWL"/>
+		<whiteLists numeric="20802" ltestate="PS/CSFB" operator="Orange" country="France" defaultMode="GWL"/>
+		<whiteLists numeric="20810" ltestate="PS/CSFB" operator="SFR" country="France" defaultMode="GWL"/>
+		<whiteLists numeric="20811" ltestate="PS/CSFB" operator="SFR" country="France" defaultMode="GWL"/>
+		<whiteLists numeric="20813" ltestate="PS/CSFB" operator="SFR" country="France" defaultMode="GWL"/>
+		<whiteLists numeric="20815" ltestate="PS/CSFB" operator="Free" country="France" defaultMode="GWL"/>
+		<whiteLists numeric="20826" ltestate="PS/CSFB" operator="NRJ" country="France" defaultMode="GWL"/>
+
+<!-- SEG  -->
+		<whiteLists numeric="26201" ltestate="PS/CSFB" operator="DT" country="Germany" defaultMode="GWL"/>
+		<whiteLists numeric="26202" ltestate="PS/CSFB" operator="VDF" country="Germany" defaultMode="GWL"/>
+		<whiteLists numeric="26203" ltestate="PS/CSFB" operator="E-Plus" country="Germany" defaultMode="GWL"/>
+		<whiteLists numeric="26207" ltestate="PS/CSFB" operator="O2" country="Germany" defaultMode="GWL"/>
+		<whiteLists numeric="26209" ltestate="PS/CSFB" operator="VDF_TEST" country="Germany" defaultMode="GWL"/>
+
+<!-- SEI  -->
+		<whiteLists numeric="22299" ltestate="PS/CSFB" operator="H3G" country="Italy" defaultMode="GWL"/>
+		<whiteLists numeric="22201" ltestate="PS/CSFB" operator="TIM" country="Italy" defaultMode="GWL"/>
+		<whiteLists numeric="22210" ltestate="PS/CSFB" operator="VDF" country="Italy" defaultMode="GWL"/>
+		<whiteLists numeric="22288" ltestate="PS/CSFB" operator="WIND" country="Italy" defaultMode="GWL"/>
+		<whiteLists numeric="27801" ltestate="PS/CSFB" operator="Vodafone" country="Malta" defaultMode="GWL"/>
+
+<!-- SESA  -->
+		<whiteLists numeric="21401" ltestate="PS/CSFB" operator="Vodafone" country="Spain" defaultMode="GWL"/>
+		<whiteLists numeric="21403" ltestate="PS/CSFB" operator="Orange" country="Spain" defaultMode="GWL"/>
+		<whiteLists numeric="21404" ltestate="PS/CSFB" operator="Yoigo" country="Spain" defaultMode="GWL"/>
+		<whiteLists numeric="21407" ltestate="PS/CSFB" operator="Telefonica" country="Spain" defaultMode="GWL"/>
+
+<!-- SEBN  -->
+		<whiteLists numeric="20401" ltestate="PS/CSFB" operator="RadioAccess" country="Netherland" defaultMode="GWL"/>
+		<whiteLists numeric="20404" ltestate="PS/CSFB" operator="VDF" country="Netherland" defaultMode="GWL"/>
+		<whiteLists numeric="20408" ltestate="PS/CSFB" operator="KPN" country="Netherland" defaultMode="GWL"/>
+		<whiteLists numeric="20412" ltestate="PS/CSFB" operator="KPN(Telfort B.V)" country="Netherland" defaultMode="GWL"/>
+		<whiteLists numeric="20416" ltestate="PS/CSFB" operator="TMobile" country="Netherland" defaultMode="GWL"/>
+		<whiteLists numeric="20422" ltestate="PS/CSFB" operator="Ministry of Defense" country="Netherland" defaultMode="GWL"/>
+		<whiteLists numeric="20467" ltestate="PS/CSFB" operator="RadioAccess" country="Netherland" defaultMode="GWL"/>
+		<whiteLists numeric="20420" ltestate="PS/CSFB" operator="T-Mobile NL" country="Netherland" defaultMode="GWL"/>
+		<whiteLists numeric="27001" ltestate="PS/CSFB" operator="LUXGSM" country="Luxembourg" defaultMode="GWL"/>
+		<whiteLists numeric="27077" ltestate="PS/CSFB" operator="Tango" country="Luxembourg" defaultMode="GWL"/>
+		<whiteLists numeric="27099" ltestate="PS/CSFB" operator="Orange LU" country="Luxembourg" defaultMode="GWL"/>
+		<whiteLists numeric="20601" ltestate="PS/CSFB" operator="Proximus" country="BELGIUM" defaultMode="GWL"/>
+		<whiteLists numeric="20605" ltestate="PS/CSFB" operator="Telenet" country="BELGIUM" defaultMode="GWL"/>
+		<whiteLists numeric="20610" ltestate="PS/CSFB" operator="Mobistar" country="BELGIUM" defaultMode="GWL"/>
+		<whiteLists numeric="20620" ltestate="PS/CSFB" operator="BASE" country="Belgium" defaultMode="GWL"/>
+
+<!-- SENA  -->
+		<whiteLists numeric="24001" ltestate="PS/CSFB" operator="Telia" country="Sweden" defaultMode="GWL"/>
+		<whiteLists numeric="24007" ltestate="PS/CSFB" operator="Tele2" country="Sweden" defaultMode="GWL"/>
+		<whiteLists numeric="24005" ltestate="PS/CSFB" operator="Tele2" country="Sweden" defaultMode="GWL"/>
+		<whiteLists numeric="24008" ltestate="PS/CSFB" operator="Telenor" country="Sweden" defaultMode="GWL"/>
+		<whiteLists numeric="24002" ltestate="PS/CSFB" operator="H3G" country="Sweden" defaultMode="GWL"/>
+
+		<whiteLists numeric="24405" ltestate="PS/CSFB" operator="Elisa" country="Finland" defaultMode="GWL"/>
+		<whiteLists numeric="24421" ltestate="PS/CSFB" operator="Elisa" country="Finland" defaultMode="GWL"/>
+		<whiteLists numeric="24412" ltestate="PS/CSFB" operator="DNA" country="Finland" defaultMode="GWL"/>
+		<whiteLists numeric="24414" ltestate="PS/CSFB" operator="Alcom" country="Finland" defaultMode="GWL"/>
+		<whiteLists numeric="24403" ltestate="PS/CSFB" operator="DNA" country="Finland" defaultMode="GWL"/>
+		<whiteLists numeric="24491" ltestate="PS/CSFB" operator="Telia" country="Finland" defaultMode="GWL"/>
+
+		<whiteLists numeric="24201" ltestate="PS/CSFB" operator="Telenor" country="Norway" defaultMode="GWL"/>
+		<whiteLists numeric="24202" ltestate="PS/CSFB" operator="NetCom" country="Norway" defaultMode="GWL"/>
+		<whiteLists numeric="24205" ltestate="PS/CSFB" operator="Network Norway" country="Norway" defaultMode="GWL"/>
+
+		<whiteLists numeric="23801" ltestate="PS/CSFB" operator="TDC" country="Denmark" defaultMode="GWL"/>
+		<whiteLists numeric="23820" ltestate="PS/CSFB" operator="Telia" country="Denmark" defaultMode="GWL"/>
+		<whiteLists numeric="23830" ltestate="PS/CSFB" operator="Telia" country="Denmark" defaultMode="GWL"/>
+		<whiteLists numeric="23806" ltestate="PS/CSFB" operator="H3G" country="Denmark" defaultMode="GWL"/>
+		<whiteLists numeric="23802" ltestate="PS/CSFB" operator="Telenor" country="Denmark" defaultMode="GWL"/>
+		<whiteLists numeric="23877" ltestate="PS/CSFB" operator="Telenor" country="Denmark" defaultMode="GWL"/>
+
+		<whiteLists numeric="27411" ltestate="PS/CSFB" operator="Nova" country="Iceland" defaultMode="GWL"/>
+		<whiteLists numeric="27401" ltestate="PS/CSFB" operator="Siminn" country="Iceland" defaultMode="GWL"/>
+		<whiteLists numeric="27412" ltestate="PS/CSFB" operator="Tal" country="Iceland" defaultMode="GWL"/>
+		<whiteLists numeric="27402" ltestate="PS/CSFB" operator="Vodafone Iceland" country="Iceland" defaultMode="GWL"/>
+
+		<whiteLists numeric="29001" ltestate="PS/CSFB" operator="Tele Greenland" country="Greenland" defaultMode="GWL"/>
+
+<!-- SEP   -->
+		<whiteLists numeric="26806" ltestate="PS/CSFB" operator="TMN" country="Portugal" defaultMode="GWL"/>
+		<whiteLists numeric="26801" ltestate="PS/CSFB" operator="VDF" country="Portugal" defaultMode="GWL"/>
+		<whiteLists numeric="26803" ltestate="PS/CSFB" operator="Optimus" country="Portugal" defaultMode="GWL"/>
+
+<!-- SEAG   -->
+		<whiteLists numeric="23201" ltestate="PS/CSFB" operator="A1" country="Austria" defaultMode="GWL"/>
+		<whiteLists numeric="23203" ltestate="PS/CSFB" operator="T-Mobile" country="Austria" defaultMode="GWL"/>
+		<whiteLists numeric="23205" ltestate="PS/CSFB" operator="H3G" country="Austria" defaultMode="GWL"/>
+		<whiteLists numeric="23210" ltestate="PS/CSFB" operator="Hutchison 3" country="Austria" defaultMode="GWL"/>
+		<whiteLists numeric="23214" ltestate="PS/CSFB" operator="H3G" country="Austria" defaultMode="GWL"/>
+		<whiteLists numeric="22801" ltestate="PS/CSFB" operator="Swisscom" country="Switzerland" defaultMode="GWL"/>
+		<whiteLists numeric="22802" ltestate="PS/CSFB" operator="Sunrise" country="Switzerland" defaultMode="GWL"/>
+		<whiteLists numeric="22803" ltestate="PS/CSFB" operator="Orange" country="Switzerland" defaultMode="GWL"/>
+		<whiteLists numeric="29340" ltestate="PS/CSFB" operator="SIM" country="SLOVENIA" defaultMode="GWL"/>
+		<whiteLists numeric="29341" ltestate="PS/CSFB" operator="Mobitel" country="SLOVENIA" defaultMode="GWL"/>
+		<whiteLists numeric="29502" ltestate="PS/CSFB" operator="Orange" country="Liechtenstein" defaultMode="GWL"/>
+
+<!-- SEPOL   -->
+		<whiteLists numeric="26001" ltestate="PS/CSFB" operator="Plus" country="Poland" defaultMode="GWL"/>
+		<whiteLists numeric="26002" ltestate="PS/CSFB" operator="T-Mobile" country="Poland" defaultMode="GWL"/>
+		<whiteLists numeric="26003" ltestate="PS/CSFB" operator="Orange" country="Poland" defaultMode="GWL"/>
+		<whiteLists numeric="26006" ltestate="PS/CSFB" operator="PLAY" country="Poland" defaultMode="GWL"/>
+		<whiteLists numeric="26010" ltestate="PS/CSFB" operator="Plus" country="Poland" defaultMode="GWL"/>
+		<whiteLists numeric="26012" ltestate="PS/CSFB" operator="Plus" country="Poland" defaultMode="GWL"/>
+		<whiteLists numeric="26015" ltestate="PS/CSFB" operator="Plus" country="Poland" defaultMode="GWL"/>
+		<whiteLists numeric="26016" ltestate="PS/CSFB" operator="Plus" country="Poland" defaultMode="GWL"/>
+		<whiteLists numeric="26017" ltestate="PS/CSFB" operator="Plus" country="Poland" defaultMode="GWL"/>
+
+<!-- SEH  -->
+		<whiteLists numeric="21601" ltestate="PS/CSFB" operator="Telenor" country="Hungary" defaultMode="GWL"/>
+		<whiteLists numeric="21630" ltestate="PS/CSFB" operator="T-Mobile" country="Hungary" defaultMode="GWL"/>
+
+<!-- SECZ  -->
+		<whiteLists numeric="23001" ltestate="PS/CSFB" operator="TMZ" country="Czech" defaultMode="GWL"/>
+		<whiteLists numeric="23002" ltestate="PS/CSFB" operator="Telefonica-O2" country="Czech" defaultMode="GWL"/>
+		<whiteLists numeric="23003" ltestate="PS/CSFB" operator="VDC" country="Czech" defaultMode="GWL"/>
+		<whiteLists numeric="23101" ltestate="PS/CSFB" operator="Orange" country="Slovakia" defaultMode="GWL"/>
+		<whiteLists numeric="23102" ltestate="PS/CSFB" operator="T-Mobile" country="Slovakia" defaultMode="GWL"/>
+
+<!-- SEROM  -->
+		<whiteLists numeric="22601" ltestate="PS/CSFB" operator="VDF" country="Romania" defaultMode="GWL"/>
+		<whiteLists numeric="22603" ltestate="PS/CSFB" operator="COSMOTE" country="Romania" defaultMode="GWL"/>
+		<whiteLists numeric="22610" ltestate="PS/CSFB" operator="Orange" country="Romania" defaultMode="GWL"/>
+		<whiteLists numeric="25901" ltestate="PS/CSFB" operator="Orange" country="Moldova" defaultMode="GWL"/>
+
+<!-- SEGR  -->
+		<whiteLists numeric="20201" ltestate="PS/CSFB" operator="Cosmote" country="Greece" defaultMode="GWL"/>
+		<whiteLists numeric="20205" ltestate="PS/CSFB" operator="VDF" country="Greece" defaultMode="GWL"/>
+
+<!-- SEAD  -->
+		<whiteLists numeric="21901" ltestate="PS/CSFB" operator="T-Mobile" country="CROATIA" defaultMode="GWL"/>
+		<whiteLists numeric="21910" ltestate="PS/CSFB" operator="VIPnet" country="CROATIA" defaultMode="GWL"/>
+		<whiteLists numeric="29401" ltestate="PS/CSFB" operator="T-Mobile" country="MACEDONIA" defaultMode="GWL"/>
+		<whiteLists numeric="29403" ltestate="PS/CSFB" operator="VIP" country="MACEDONIA" defaultMode="GWL"/>
+		<whiteLists numeric="29701" ltestate="PS/CSFB" operator="Telenor" country="MONTENEGRO" defaultMode="GWL"/>
+		<whiteLists numeric="29702" ltestate="PS/CSFB" operator="T-Mobile" country="MONTENEGRO" defaultMode="GWL"/>
+
+<!-- SEB   -->
+		<whiteLists numeric="24701" ltestate="PS/CSFB" operator="LMT" country="Latvia" defaultMode="GWL"/>
+		<whiteLists numeric="24601" ltestate="PS/CSFB" operator="Omnitel" country="Lithuania" defaultMode="GWL"/>
+		<whiteLists numeric="24801" ltestate="PS/CSFB" operator="EMT" country="ESTONIA" defaultMode="GWL"/>
+		<whiteLists numeric="24802" ltestate="PS/CSFB" operator="EE Elisa" country="ESTONIA" defaultMode="GWL"/>
+		<whiteLists numeric="24803" ltestate="PS/CSFB" operator="Tele2" country="ESTONIA" defaultMode="GWL"/>
+
+<!--
+    SEA, AUS, NZ
+-->
+
+<!-- SEAU   -->
+		<whiteLists numeric="50501" ltestate="PS/CSFB" operator="Telstra" country="Australia" defaultMode="GWL"/>
+		<whiteLists numeric="50503" ltestate="PS/CSFB" operator="VHA" country="Australia" defaultMode="GWL"/>
+		<whiteLists numeric="50506" ltestate="PS/CSFB" operator="VHA" country="Australia" defaultMode="GWL"/>
+		<whiteLists numeric="50502" ltestate="PS/CSFB" operator="Optus" country="Australia" defaultMode="GWL"/>
+		<whiteLists numeric="53001" ltestate="PS/CSFB" operator="Vodafone NZ" country="New Zealand" defaultMode="GWL"/>
+		<whiteLists numeric="53005" ltestate="PS/CSFB" operator="Telecom NZ" country="New Zealand" defaultMode="GWL"/>
+		<whiteLists numeric="53024" ltestate="PS/CSFB" operator="2degrees" country="New Zealand" defaultMode="GWL"/>
+		<whiteLists numeric="53099" ltestate="PS/CSFB" operator="Telecom NZ" country="New Zealand" defaultMode="GWL"/>
+		<whiteLists numeric="53703" ltestate="PS/CSFB" operator="Digicel" country="PNG" defaultMode="GWL"/>
+		<whiteLists numeric="54201" ltestate="PS/CSFB" operator="Vodafone NZ" country="FIJI" defaultMode="GWL"/>
+
+<!-- SAPL   -->
+		<whiteLists numeric="52501" ltestate="PS/CSFB" operator="Singtel" country="Singapore" defaultMode="GWL"/>
+		<whiteLists numeric="52502" ltestate="PS/CSFB" operator="Singtel" country="Singapore" defaultMode="GWL"/>
+		<whiteLists numeric="52503" ltestate="PS/CSFB" operator="M1" country="Singapore" defaultMode="GWL"/>
+		<whiteLists numeric="52505" ltestate="PS/CSFB" operator="StarHub" country="Singapore" defaultMode="GWL"/>
+		<whiteLists numeric="52811" ltestate="PS/CSFB" operator="DSTComm" country="Brunei" defaultMode="GWL"/>
+
+<!-- SEPCO   -->
+		<whiteLists numeric="52000" ltestate="PS/CSFB" operator="True Move" country="Thailand" defaultMode="GWL"/>
+		<whiteLists numeric="52001" ltestate="PS/CSFB" operator="AIS" country="Thailand" defaultMode="GWL"/>
+		<whiteLists numeric="52003" ltestate="PS/CSFB" operator="AIS" country="Thailand" defaultMode="GWL"/>
+		<whiteLists numeric="52004" ltestate="PS/CSFB" operator="Real Future" country="Thailand" defaultMode="GWL"/>
+		<whiteLists numeric="52005" ltestate="PS/CSFB" operator="DTAC" country="Thailand" defaultMode="GWL"/>
+		<whiteLists numeric="51502" ltestate="PS/CSFB" operator="GLOBE" country="Philippines" defaultMode="GWL"/>
+		<whiteLists numeric="51503" ltestate="PS/CSFB" operator="SMART" country="Philippines" defaultMode="GWL"/>
+		<whiteLists numeric="45701" ltestate="PS/CSFB" operator="Lao Telecom" country="Laos" defaultMode="GWL"/>
+		<whiteLists numeric="45606" ltestate="PS/CSFB" operator="Smart" country="Cambodia" defaultMode="GWL"/>
+
+<!-- SME   -->
+		<whiteLists numeric="50212" ltestate="PS/CSFB" operator="MAXIS" country="Malaysia" defaultMode="GWL"/>
+		<whiteLists numeric="50216" ltestate="PS/CSFB" operator="DiGi" country="Malaysia" defaultMode="GWL"/>
+		<whiteLists numeric="50218" ltestate="PS/CSFB" operator="U-mobile" country="Malaysia" defaultMode="GWL"/>
+		<whiteLists numeric="50219" ltestate="PS/CSFB" operator="CELCOM" country="Malaysia" defaultMode="GWL"/>
+
+<!-- SERC   -->
+		<whiteLists numeric="25001" ltestate="PS/CSFB" operator="MTS" country="Russia" defaultMode="GWL"/>
+		<whiteLists numeric="25002" ltestate="PS/CSFB" operator="MegaFon" country="Russia" defaultMode="GWL"/>
+		<whiteLists numeric="25099" ltestate="PS/CSFB" operator="Beeline" country="Russia" defaultMode="GWL"/>
+		<whiteLists numeric="25007" ltestate="PS/CSFB" operator="Tattelecom" country="Russia" defaultMode="GWL"/>
+		<whiteLists numeric="25011" ltestate="PS/CSFB" operator="Yota" country="Russia" defaultMode="GWL"/>
+		<whiteLists numeric="25027" ltestate="PS/CSFB" operator="Tattelecom" country="Russia" defaultMode="GWL"/>
+		<whiteLists numeric="25054" ltestate="PS/CSFB" operator="Tattelecom" country="Russia" defaultMode="GWL"/>
+		<whiteLists numeric="28305" ltestate="PS/CSFB" operator="VivaCell-MTS" country="Armenia" defaultMode="GWL"/>
+		<whiteLists numeric="40001" ltestate="PS/CSFB" operator="Azercell" country="Azerbaijan" defaultMode="GWL"/>
+		<whiteLists numeric="40107" ltestate="PS/CSFB" operator="ALTEL" country="Kazakhstan" defaultMode="GWL"/>
+		<whiteLists numeric="43404" ltestate="PS/CSFB" operator="Beeline" country="Uzbekistan" defaultMode="GWL"/>
+		<whiteLists numeric="43601" ltestate="PS/CSFB" operator="TCell" country="Tajikistan" defaultMode="GWL"/>
+		<whiteLists numeric="43602" ltestate="PS/CSFB" operator="TCell" country="Tajikistan" defaultMode="GWL"/>
+		<whiteLists numeric="43802" ltestate="PS/CSFB" operator="TM CELL" country="Turkmenistan" defaultMode="GWL"/>
+
+<!-- MEA   -->
+		<whiteLists numeric="42001" ltestate="PS/CSFB" operator="STC" country="SAUDI" defaultMode="GWL"/>
+		<whiteLists numeric="42003" ltestate="PS/CSFB" operator="MOBILY" country="SAUDI" defaultMode="GWL"/>
+		<whiteLists numeric="42004" ltestate="PS/CSFB" operator="ZAIN" country="SAUDI" defaultMode="GWL"/>
+		<whiteLists numeric="42402" ltestate="PS/CSFB" operator="Etisalat" country="UAE" defaultMode="GWL"/>
+		<whiteLists numeric="42403" ltestate="PS/CSFB" operator="du" country="UAE" defaultMode="GWL"/>
+		<whiteLists numeric="41902" ltestate="PS/CSFB" operator="Zain" country="Kuwait" defaultMode="GWL"/>
+		<whiteLists numeric="41903" ltestate="PS/CSFB" operator="Wataniya" country="Kuwait" defaultMode="GWL"/>
+		<whiteLists numeric="41904" ltestate="PS/CSFB" operator="Viva Kuwait" country="Kuwait" defaultMode="GWL"/>
+		<whiteLists numeric="41501" ltestate="PS/CSFB" operator="Alfa" country="Lebanon" defaultMode="GWL"/>
+		<whiteLists numeric="41503" ltestate="PS/CSFB" operator="MTC-Touch" country="Lebanon" defaultMode="GWL"/>
+		<whiteLists numeric="42202" ltestate="PS/CSFB" operator="Omantel" country="Oman" defaultMode="GWL"/>
+		<whiteLists numeric="42203" ltestate="PS/CSFB" operator="nawras" country="Oman" defaultMode="GWL"/>
+		<whiteLists numeric="42501" ltestate="PS/CSFB" operator="Orange" country="Israel" defaultMode="GWL"/>
+		<whiteLists numeric="42510" ltestate="PS/CSFB" operator="Orange(Test)" country="Israel" defaultMode="GWL"/>
+		<whiteLists numeric="42502" ltestate="PS/CSFB" operator="Cellcom" country="Israel" defaultMode="GWL"/>
+		<whiteLists numeric="42503" ltestate="PS/CSFB" operator="Pelephone" country="Israel" defaultMode="GWL"/>		
+		<whiteLists numeric="42601" ltestate="PS/CSFB" operator="Batelco" country="Bahrain" defaultMode="GWL"/>
+		<whiteLists numeric="42602" ltestate="PS/CSFB" operator="Zain" country="Bahrain" defaultMode="GWL"/>
+		<whiteLists numeric="42604" ltestate="PS/CSFB" operator="Viva Bahrain" country="Bahrain" defaultMode="GWL"/>
+		<whiteLists numeric="42701" ltestate="PS/CSFB" operator="Ooredoo" country="Qatar" defaultMode="GWL"/>
+		<whiteLists numeric="42702" ltestate="PS/CSFB" operator="vodafone" country="Qatar" defaultMode="GWL"/>
+		<whiteLists numeric="61203" ltestate="PS/CSFB" operator="Orange" country="Ivory Coast" defaultMode="GWL"/>
+		<whiteLists numeric="61701" ltestate="PS/CSFB" operator="Orange" country="Mauritius" defaultMode="GWL"/>
+		<whiteLists numeric="61710" ltestate="PS/CSFB" operator="EMTEL" country="Mauritius" defaultMode="GWL"/>
+		<whiteLists numeric="63102" ltestate="PS/CSFB" operator="Unitel" country="Angola" defaultMode="GWL"/>
+		<whiteLists numeric="63601" ltestate="PS/CSFB" operator="Ethio Telecom" country="Ethiopia" defaultMode="GWL"/>
+		<whiteLists numeric="64502" ltestate="PS/CSFB" operator="MTN" country="Zambia" defaultMode="GWL"/>	
+		<whiteLists numeric="64901" ltestate="PS/CSFB" operator="MTC" country="Namibia" defaultMode="GWL"/>
+		<whiteLists numeric="65501" ltestate="PS/CSFB" operator="Vodacom" country="South Africa" defaultMode="GWL"/>
+		<whiteLists numeric="65510" ltestate="PS/CSFB" operator="MTN" country="South Africa" defaultMode="GWL"/>
+		<whiteLists numeric="28601" ltestate="PS/CSFB" operator="Turkcell" country="Turkey" defaultMode="GWL"/>
+		<whiteLists numeric="28603" ltestate="PS/CSFB" operator="AVEA" country="Turkey" defaultMode="GWL"/>
+
+<!-- SRI -->
+		<whiteLists numeric="41301" ltestate="PS/CSFB" operator="Mobitel" country="Sri Lanka" defaultMode="GWL"/>
+		<whiteLists numeric="41302" ltestate="PS/CSFB" operator="DIALOG" country="Sri Lanka" defaultMode="GWL"/>
+		<whiteLists numeric="40402" ltestate="PS/CSFB" operator="airtel" country="India" defaultMode="GWL"/>
+		<whiteLists numeric="40445" ltestate="PS/CSFB" operator="airtel" country="India" defaultMode="GWL"/>
+		<whiteLists numeric="40410" ltestate="PS/CSFB" operator="airtel" country="India" defaultMode="GWL"/>
+		<whiteLists numeric="40431" ltestate="PS/CSFB" operator="airtel" country="India" defaultMode="GWL"/>
+		<whiteLists numeric="47202" ltestate="PS/CSFB" operator="Ooredoo" country="Maldives" defaultMode="GWL"/>
+
+<!-- TW -->
+		<whiteLists numeric="46692" ltestate="PS/CSFB" operator="Chunghwa" country="Taiwan" defaultMode="GWL"/>
+		<whiteLists numeric="46601" ltestate="PS/CSFB" operator="FarEasTone" country="Taiwan" defaultMode="GWL"/>
+		<whiteLists numeric="46688" ltestate="PS/CSFB" operator="KGT" country="Taiwan" defaultMode="GWL"/>
+		<whiteLists numeric="46697" ltestate="PS/CSFB" operator="TW Mobile" country="Taiwan" defaultMode="GWL"/>
+		<whiteLists numeric="46699" ltestate="PS/CSFB" operator="TW Mobile" country="Taiwan" defaultMode="GWL"/>
+		<whiteLists numeric="46693" ltestate="PS/CSFB" operator="TW Mobile" country="Taiwan" defaultMode="GWL"/>
+		<whiteLists numeric="46689" ltestate="PS/CSFB" operator="VIBO" country="Taiwan" defaultMode="GWL"/>
+
+<!-- HK -->
+		<whiteLists numeric="45400" ltestate="PS/CSFB" operator="1O1O" country="Hong Kong" defaultMode="GWL"/>
+		<whiteLists numeric="45402" ltestate="PS/CSFB" operator="1O1O" country="Hong Kong" defaultMode="GWL"/>
+		<whiteLists numeric="45418" ltestate="PS/CSFB" operator="1O1O" country="Hong Kong" defaultMode="GWL"/>
+		<whiteLists numeric="45400" ltestate="PS/CSFB" operator="one2free" country="Hong Kong" defaultMode="GWL"/>
+		<whiteLists numeric="45402" ltestate="PS/CSFB" operator="one2free" country="Hong Kong" defaultMode="GWL"/>
+		<whiteLists numeric="45418" ltestate="PS/CSFB" operator="one2free" country="Hong Kong" defaultMode="GWL"/>
+		<whiteLists numeric="45400" ltestate="PS/CSFB" operator="New World Mobility" country="Hong Kong" defaultMode="GWL"/>
+		<whiteLists numeric="45402" ltestate="PS/CSFB" operator="New World Mobility" country="Hong Kong" defaultMode="GWL"/>
+		<whiteLists numeric="45418" ltestate="PS/CSFB" operator="New World Mobility" country="Hong Kong" defaultMode="GWL"/>
+		<whiteLists numeric="45403" ltestate="PS/CSFB" operator="3" country="Hong Kong" defaultMode="GWL"/>
+		<whiteLists numeric="45404" ltestate="PS/CSFB" operator="3(2G)" country="Hong Kong" defaultMode="GWL"/>
+		<whiteLists numeric="45414" ltestate="PS/CSFB" operator="3(2G)" country="Hong Kong" defaultMode="GWL"/>
+		<whiteLists numeric="45419" ltestate="PS/CSFB" operator="PCCW-HKT" country="Hong Kong" defaultMode="GWL"/>
+		<whiteLists numeric="45416" ltestate="PS/CSFB" operator="PCCW-HKT" country="Hong Kong" defaultMode="GWL"/>
+		<whiteLists numeric="45412" ltestate="PS/CSFB" operator="China Mobile HK" country="Hong Kong" defaultMode="GWL"/>
+		<whiteLists numeric="45413" ltestate="PS/CSFB" operator="China Mobile HK" country="Hong Kong" defaultMode="GWL"/>
+		<whiteLists numeric="45406" ltestate="PS/CSFB" operator="SmarTone HK" country="Hong Kong" defaultMode="GWL"/>
+		<whiteLists numeric="45415" ltestate="PS/CSFB" operator="SmarTone HK" country="Hong Kong" defaultMode="GWL"/>
+		<whiteLists numeric="45417" ltestate="PS/CSFB" operator="SmarTone HK" country="Hong Kong" defaultMode="GWL"/>
+</whiteLists>

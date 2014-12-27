@@ -1,0 +1,3 @@
+/data/app/SecDownloadProviderPermissionTests.apk
+/data/app/SecDownloadProviderTests.apk
+/data/app/SecDownloadPublicApiAccessTests.apk

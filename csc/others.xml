@@ -1,0 +1,13 @@
+<?xml  version="1.0" encoding="UTF-8" ?>
+<SamsungMobileFeauture>
+  <Version>ED001</Version>
+  <Country>SWITZERLAND</Country>
+  <CountryISO>CH</CountryISO>
+  <SalesCode>AUT</SalesCode>
+  <FeatureSet>
+    <CscFeature_Common_DisablePhoneNumberFormatting>TRUE</CscFeature_Common_DisablePhoneNumberFormatting>
+    <CscFeature_Web_EnableAutoSimHomeUrlInProfile>TRUE</CscFeature_Web_EnableAutoSimHomeUrlInProfile>
+    <CscFeature_RIL_EnableLaunchBrowser>TRUE</CscFeature_RIL_EnableLaunchBrowser>    
+    <CscFeature_MultiWindow_AddOnApp>com.adsk.sketchbookhd.galaxy.oem,com.canal.android.canal,com.samsung.android.app.episodes,com.sec.android.app.music,com.sec.android.app.popupcalculator,com.sec.android.app.sbrowser,com.sec.android.app.translator,com.sec.android.quickmemo,com.sec.webbrowserminiapp,sstream.app</CscFeature_MultiWindow_AddOnApp>
+    </FeatureSet>
+</SamsungMobileFeature>  
